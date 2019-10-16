@@ -1,0 +1,72 @@
+.content {
+    padding: 0 3rem;
+  }
+  header {
+    padding: 1rem;
+    display: flex;
+    color: #ffffff;
+    background: #0288d1;
+    box-shadow: 0 4px 3px rgba(1, 87, 155, 0.5);
+    align-items: center;
+  }
+  header img {
+    height: 3rem;
+    margin-right: 0.3rem;
+  }
+  header h2 {
+    font-size: 1.75rem;
+    font-weight: 300;
+  }
+:host {
+    width: 100%;
+    padding: 2rem;
+    color: #080707;
+  }
+  .contact {
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    text-align: left;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #dddbda;
+    align-items: center;
+    border-left: 3px solid #0277bd;
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  .contact:hover {
+    background-color: #e1f5fe;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .contact p {
+    margin: 0;
+  }
+  .contact .title {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .contact .icon {
+    color: #039be5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 1.75rem;
+  }
+  .contact .icon.email {
+    background-image: url(https://developer.salesforce.com/files/js-dev/icons/email.svg);
+    margin-top: .6rem;
+  }
+  
+  input {
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    transition: border 0.1s linear, background-color 0.1s linear;
+    display: inline-block;
+    padding: 0 1rem 0 0.75rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    width: 15rem;
+  }
+  

@@ -1,0 +1,22 @@
+<template>
+    <header>
+        <img src="resources/lwc.png" alt="App logo">
+        <h2>Contact Records by NewsTechnologyStuff</h2>
+    </header>
+    <!-- Page code -->
+    <main class="content">
+        <div class="list">
+            <input type="search" placeholder="Search contacts..."
+                    oninput={searchdata} />
+
+            <template for:each={contacts} for:item="cont">
+                <a key={cont.id} class="contact">
+                    <div>
+                        <p class="title">{cont.firstName} {cont.lastName}</p>
+                        <p class="icon email">{cont.email}</p>
+                    </div>
+                </a>
+            </template>
+        </div>
+    </main>
+</template>
